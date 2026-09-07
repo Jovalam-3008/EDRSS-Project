@@ -1,0 +1,41 @@
+{
+  "project": {
+    "name": "Early Delinquency Risk Scoring System (EDRSS)",
+    "version": "2.0",
+    "analytical_unit": "mobile_microcredit_transaction",
+    "business_decision": "prioritize_early_collection_queue",
+    "primary_metric": "roc_auc"
+  },
+  "data": {
+    "dataset_path": "data/raw/dataset.csv",
+    "expected_md5": "5fc2b932c2cb8a3a09cf4538faf6878a",
+    "date_column": "pdate",
+    "date_format": "%d-%m-%Y",
+    "source_target": "label",
+    "business_target": "riesgo_mora",
+    "positive_source_value": 0,
+    "label_horizon_days": 5
+  },
+  "temporal_split": {
+    "train_start": "2016-06-01",
+    "train_end": "2016-07-07",
+    "embargo_start": "2016-07-08",
+    "embargo_end": "2016-07-12",
+    "oot_start": "2016-07-13",
+    "oot_end": "2016-07-23",
+    "scoring_start": "2016-07-24",
+    "cv_folds": [
+      {"fold": 1, "train_start": "2016-06-01", "train_end": "2016-06-07", "validation_start": "2016-06-13", "validation_end": "2016-06-17"},
+      {"fold": 2, "train_start": "2016-06-01", "train_end": "2016-06-12", "validation_start": "2016-06-18", "validation_end": "2016-06-22"},
+      {"fold": 3, "train_start": "2016-06-01", "train_end": "2016-06-17", "validation_start": "2016-06-23", "validation_end": "2016-06-27"},
+      {"fold": 4, "train_start": "2016-06-01", "train_end": "2016-06-22", "validation_start": "2016-06-28", "validation_end": "2016-07-02"},
+      {"fold": 5, "train_start": "2016-06-01", "train_end": "2016-06-27", "validation_start": "2016-07-03", "validation_end": "2016-07-07"}
+    ]
+  },
+  "model": {
+    "random_state": 42,
+    "auc_tolerance": 0.005,
+    "capacity_levels": [0.05, 0.10, 0.20],
+    "candidates": ["logistic_regression", "random_forest", "hist_gradient_boosting"]
+  }
+}

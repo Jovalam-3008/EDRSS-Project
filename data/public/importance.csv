@@ -1,0 +1,9 @@
+model_name,model_version,feature_name,importance_type,importance_value,importance_std,feature_rank,measured_at
+RandomForest,edrss-v2-20260907T010913Z,log1p_sumamnt_ma_rech90,permutation,0.0048,,1,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,sumamnt_ma_rech90,permutation,0.00452,,2,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,log1p_cnt_ma_rech90,permutation,0.00449,,3,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,recency_to_tenure_ratio,permutation,0.00321,,4,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,sumamnt_ma_rech30,permutation,0.00282,,5,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,last_rech_date_ma,permutation,0.00238,,6,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,medianmarechprebal90,permutation,0.00215,,7,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,cnt_ma_rech90,permutation,0.00197,,8,2026-09-07T01:09:13Z

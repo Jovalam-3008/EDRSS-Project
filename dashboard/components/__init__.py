@@ -1,0 +1,2 @@
+"""Componentes compartidos del dashboard."""
+

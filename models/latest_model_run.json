@@ -1,0 +1,7 @@
+{
+  "model_run_id": "5523ec22-cb1f-4f98-980f-a769a93fc283",
+  "model_name": "RandomForest",
+  "model_version": "edrss-v2-20260907T010913Z",
+  "artifact_path": "models/RandomForest_edrss-v2-20260907T010913Z.joblib",
+  "predictions_published": "164034"
+}

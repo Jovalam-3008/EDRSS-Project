@@ -1,0 +1,4 @@
+model_name,model_version,trained_at,evaluation_scope,fold_number,period_start,period_end,metric_name,metric_value,measured_at
+RandomForest,edrss-v2-20260907T010913Z,2026-09-07T01:09:13Z,OOT,,2016-07-13,2016-07-23,roc_auc,0.843492,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,2026-09-07T01:09:13Z,OOT,,2016-07-13,2016-07-23,average_precision,0.60097,2026-09-07T01:09:13Z
+RandomForest,edrss-v2-20260907T010913Z,2026-09-07T01:09:13Z,OOT,,2016-07-13,2016-07-23,brier_score,0.134447,2026-09-07T01:09:13Z

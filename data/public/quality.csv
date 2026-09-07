@@ -1,0 +1,7 @@
+batch_id,layer_name,check_name,status,observed_value,expected_value,details,checked_at
+public-snapshot,BRONZE,row_count,PASS,209593.0,209593.0,Conteo de la fuente,2026-09-07T01:09:13Z
+public-snapshot,SILVER,row_count,PASS,209593.0,209593.0,Conteo después de tipificación,2026-09-07T01:09:13Z
+public-snapshot,GOLD,row_count,PASS,209593.0,209593.0,Conteo del contrato analítico,2026-09-07T01:09:13Z
+public-snapshot,GOLD,mature_target,PASS,150768.0,150768.0,Población supervisada,2026-09-07T01:09:13Z
+public-snapshot,GOLD,scoring_population,PASS,58825.0,58825.0,Población en cuarentena temporal,2026-09-07T01:09:13Z
+public-snapshot,MODEL,oot_roc_auc,PASS,0.843492,0.8,Umbral mínimo de aceptación,2026-09-07T01:09:13Z

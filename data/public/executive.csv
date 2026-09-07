@@ -1,0 +1,2 @@
+total_operations,mature_operations,scoring_population,delinquency_rate,model_name,model_version,threshold,trained_at,oot_roc_auc,recall_at_10,precision_at_10,lift_at_10
+209593,150768,58825,0.17352488591743606,RandomForest,edrss-v2-20260907T010913Z,0.5,2026-09-07T01:09:13Z,0.843492,0.3367,0.6954,3.37
