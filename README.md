@@ -1,6 +1,6 @@
 # Early Delinquency Risk Scoring System — V2
 
-EDRSS V2 organiza el proyecto de cobranza temprana con arquitectura Medallion y una ejecución lineal. La V1 permanece intacta como respaldo.
+EDRSS V2 organiza el proyecto de cobranza temprana con arquitectura Medallion y una ejecución lineal. La V1 legacy local corresponde a la versión local intacta como respaldo.
 
 ## Enlaces públicos
 
