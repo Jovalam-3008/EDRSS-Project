@@ -10,9 +10,6 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.database import query_dataframe  # noqa: E402
-
-
 ALLOWED_VIEWS = {
     "executive": "api.page_executive_summary",
     "risk": "api.page_risk_and_delinquency",
@@ -49,6 +46,8 @@ def load_view(name: str):
         return pd.read_csv(PROJECT_ROOT / "data" / "public" / PUBLIC_FILES[name])
     if name not in ALLOWED_VIEWS:
         raise ValueError(f"Consumible no permitido: {name}")
+    from src.database import query_dataframe
+
     return query_dataframe(f"select * from {ALLOWED_VIEWS[name]}")
 
 
