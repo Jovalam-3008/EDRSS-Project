@@ -2,6 +2,12 @@
 
 EDRSS V2 organiza el proyecto de cobranza temprana con arquitectura Medallion y una ejecución lineal. La V1 permanece intacta como respaldo.
 
+## Enlaces públicos
+
+- [Dashboard en Streamlit](https://edrss-dashboard-hjcbxwakvf6js8yn6evnhe.streamlit.app/)
+- [Repositorio independiente del dashboard](https://github.com/Jovalam-3008/EDRSS-Dashboard)
+- [Repositorio completo del proyecto](https://github.com/Jovalam-3008/EDRSS-Project)
+
 ## Principios
 
 1. SQL transforma los datos.
